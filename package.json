@@ -1,0 +1,29 @@
+{
+  "name": "my-chime-app",
+  "version": "1.0.0",
+  "description": "aws chime sample",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spotlight21c/my-chime-app-server.git"
+  },
+  "keywords": [
+    "chime"
+  ],
+  "author": "spotlight21c",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spotlight21c/my-chime-app-server/issues"
+  },
+  "homepage": "https://github.com/spotlight21c/my-chime-app-server#readme",
+  "dependencies": {
+    "aws-sdk": "^2.961.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  }
+}
